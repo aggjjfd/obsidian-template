@@ -1,5 +1,13 @@
 :root {
     --bg4: #11111133 ;
+    --margin: 4px
+}
+
+/* @p 边距修改 */
+
+.markdown-preview-view p{
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
 }
 
 /*@ heading 样式修改 */
