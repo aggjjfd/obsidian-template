@@ -1,0 +1,29 @@
+/* @heading字重与大小 */
+.mod-cm6 .cm-editor .HyperMD-header {
+    font-weight: bold;
+}
+
+.mod-cm6 .cm-editor .HyperMD-header-1, 
+.mod-cm6 .cm-editor .HyperMD-header-2, 
+.mod-cm6 .cm-editor .HyperMD-header-3, 
+.mod-cm6 .cm-editor .HyperMD-header-4, 
+.mod-cm6 .cm-editor .HyperMD-header-5, 
+.mod-cm6 .cm-editor .HyperMD-header-6 {
+    padding: 0;
+}
+
+.mod-cm6 .cm-editor .HyperMD-header-1 {
+    font-size: 1.6666667rem;
+}
+
+.mod-cm6 .cm-editor .HyperMD-header-2 {
+    font-size: 1.3rem;
+}
+.mod-cm6 .cm-editor .HyperMD-header-3 {
+    font-size: 1.25rem;
+}
+
+/* @list左缩进与<p>一致 */
+.markdown-source-view.mod-cm6.is-readable-line-width .HyperMD-list-line {
+    padding-left: 
+}

@@ -1,0 +1,40 @@
+{
+  "aestheticStyle": "glass",
+  "menuCommands": [
+    {
+      "id": "obsidian-git:pull",
+      "name": "Obsidian Git: Pull",
+      "icon": "remix-GithubFill"
+    },
+    {
+      "id": "app:delete-file",
+      "name": "Delete current file",
+      "icon": "trash"
+    },
+    {
+      "id": "window-collapse:collapse-sidebars",
+      "name": "Window Collapse: Toggle Collapse Sidebars",
+      "icon": "remix-ArrowLeftRightLine"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "name": "File explorer: Move file to another folder",
+      "icon": "paper-plane-glyph"
+    },
+    {
+      "id": "cross-reference-navigation:show-refnav-view",
+      "name": "Cross-reference Navigation: Open Cross-references View",
+      "icon": "remix-DashboardLine"
+    },
+    {
+      "id": "app:reload",
+      "name": "Reload app without saving",
+      "icon": "reset"
+    }
+  ],
+  "appendMethod": "workspace",
+  "shouldShowMenuOnSelect": false,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 4.5,
+  "cMenuNumRows": 6
+}

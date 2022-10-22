@@ -1,0 +1,9 @@
+p.better-command-palette-title {
+    display: none;
+}
+
+.better-command-palette .prompt-input-container input {
+    border-bottom-color: #373737;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

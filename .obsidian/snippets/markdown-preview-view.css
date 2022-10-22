@@ -1,0 +1,225 @@
+:root {
+    --bg4: #11111133 ;
+}
+
+/*@ heading 样式修改 */
+
+.markdown-preview-view h2,h3,h4,h5,h6 {
+    margin: 1em 0 0.5em !important;
+    font-family: 'Source Han Serif SC' !important;
+}
+
+.markdown-preview-view h1 {
+    font-family: '方正小标宋简体' !important;
+    font-size: 1.6666667rem !important;
+    margin: 2em auto 1.3em !important;
+    text-align: center;
+}
+
+.markdown-preview-view h1:after {
+    content: "";
+    display: block;
+    margin: 0.2em auto 0;
+    width: 100px;
+    height: 2px;
+    border-bottom: 2px solid;
+    font-weight: bold;
+}
+
+.markdown-preview-view h2 {
+    font-size: 1.3333333rem;
+    border-left: 4px solid;
+    border-bottom: 1px solid;
+    padding-left: 0.5em;
+    padding-bottom: 0.2em;
+    /* color: #bd93f8; */
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 4px;
+}
+
+.markdown-preview-view h3 {
+    font-size: 1.25rem;
+    border-left: 4px solid;
+    padding-left: 0.5em;
+    /* color: #ec5152; */
+    border-radius: 4px;
+}
+
+.markdown-preview-view h4 {
+    /* color: #e6a764; */
+    font-size: 1rem;
+}
+
+.markdown-preview-view h5 {
+    /* color: #4ff379; */
+    font-size: 1rem;
+}
+
+.markdown-preview-view h6 {
+    /* color: #84dcf0; */
+    font-size: 1rem;
+}
+
+/* @blockquote 样式 */
+.markdown-preview-view blockquote {
+    border-left-width: 5px;
+    border-radius: 5px;
+    background-color: var(--bg4);
+    padding: 0 12px;
+    box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow);;
+}
+
+.markdown-preview-view blockquote p {
+    position: relative;
+}
+
+.markdown-preview-view blockquote p:first-child {
+    padding-top: 8px;
+}
+
+.markdown-preview-view blockquote p:last-child {
+    padding-bottom: 8px;
+}
+
+/* @code 字号放大，调整字体*/
+.markdown-preview-view code {
+    font-size: 1rem;
+    font-family: 'Fira Code light','Source Han serif SC';
+    padding: 2px 3px 0;
+}
+
+/* @pre code样式 */
+
+.markdown-rendered pre {
+    background-color: var(--bg4);
+}
+
+.markdown-rendered pre code {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* @行内code字体颜色 */
+.markdown-preview-view p>code,
+.markdown-preview-view li>code,
+.callout-title-inner code {
+    color: #fd5eb8;
+}
+
+/* @del线和字体颜色 */
+.markdown-preview-view del{
+    color: #777
+}
+
+/* @hr颜色 */
+.markdown-preview-view hr {
+    color: #ffffff;
+}
+
+/*@ 列表缩进 */
+.markdown-preview-view ul,ol{
+    padding-left: 2rem;
+}
+
+/*@ strong字重 */
+.markdown-preview-view strong {
+    font-weight: 700;
+}
+
+/* @task-list缩进 */
+.markdown-preview-view .contains-task-list li {
+    padding-left: 2rem;
+}
+
+.markdown-preview-view .contains-task-list li li {
+    padding-left: 0;
+}
+
+/* @timer样式 */
+.block-language-timer {
+    padding-top: 40px !important;
+    padding-bottom: 36px !important;
+    padding-left: 84px !important;
+    padding-right: 20px !important;
+    font-family: 'Fira Code';
+    border-radius: 10px;
+}
+
+.block-language-timer .timer-start,
+.block-language-timer .timer-pause,
+.block-language-timer .timer-reset,
+.block-language-timer .timer-log {
+    padding: 8px;
+    /* padding-bottom: 8px; */
+    font-family: inherit;
+}
+
+/* @toc样式 */
+.dynamic-toc::after {
+    display: block;
+    content: "";
+    margin: 2rem auto 3rem;
+    width: calc(var(--line-width)*0.9);
+    height: 0;
+    border-bottom: 1px dotted #555;
+}
+
+/* @块引用样式 */
+div[data-is-embed="true"]>p>span {
+    display: flex !important;
+    justify-content: center;
+}
+
+.markdown-embed {
+    margin: 0 auto !important;
+    border-left-width: 0px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow) !important;
+    background-color: var(--bg4);
+    padding: 12px 24px !important;
+    width: 90%;
+}
+
+.markdown-embed-link {
+    right: 16px !important;
+    top: 18px;
+    padding: 0;
+    width: 16px !important;
+}
+
+.markdown-embed-content .markdown-preview-view {
+    --line-width: auto !important;
+}
+
+/*@ 图片居中 */
+.markdown-preview-view img{
+    /* position: relative;
+    left: -2em; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*@ dataview table 样式调整 */
+/*@ 1. 给 tbody 加了下边框线，调整颜色 */
+/*@ 2. 对 thead 字体效果进行调整 */
+/*@ 3. 将表格中 li 前圆点取消 */
+
+.table-view-table > thead > tr > th {
+    font-family: var(--font-preview) !important;
+    font-weight: bold !important;
+    font-size: 1.3333333333rem !important;
+}
+
+.table-view-table > tbody > tr > td {
+    font-weight: normal !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom-color: rgb(90, 90, 90) !important;
+    border-bottom-style: dotted !important;
+    padding: 0.5em 10px !important;
+}
+
+.table-view-table > tbody > tr > td li {
+    list-style: none !important;
+}
