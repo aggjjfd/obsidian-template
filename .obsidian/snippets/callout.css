@@ -2,7 +2,9 @@
 /* ! 1. always dark mode*/
 /* ! 2. 1rem = 12px*/
 
-[data-callout-metadata] + [data-callout-metadata] .callout {
+[data-callout-metadata] + [data-callout-metadata] .callout, 
+[data-callout-metadata] + .admonition-parent .callout,
+.admonition-parent + [data-callout-metadata] .callout {
     margin-top: 6px;
 }
 
