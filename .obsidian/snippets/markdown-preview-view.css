@@ -1,6 +1,6 @@
 :root {
     --bg4: #11111133 ;
-    --margin: 4px
+    --margin: 6px
 }
 
 /* @p 边距修改 */
@@ -183,8 +183,8 @@ div[data-is-embed="true"]>p>span {
     border-radius: 12px !important;
     box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow) !important;
     background-color: var(--bg4);
-    padding: 12px 24px !important;
-    width: 90%;
+    padding: 12px !important;
+    width: 100%;
 }
 
 .markdown-embed-link {
@@ -197,6 +197,12 @@ div[data-is-embed="true"]>p>span {
 .markdown-embed-content .markdown-preview-view {
     --line-width: auto !important;
 }
+
+/* !strict embed mode（style setting 插件中调整）时须取消注释 */
+
+/* .embed-strict .markdown-embed-link {
+    display: none;
+} */
 
 /*@ 图片居中 */
 .markdown-preview-view img{
@@ -230,4 +236,11 @@ div[data-is-embed="true"]>p>span {
 
 .table-view-table > tbody > tr > td li {
     list-style: none !important;
+}
+
+/* @indent guide line 位置调整 */
+
+.markdown-rendered.show-indentation-guide li>ul::before,
+.markdown-rendered.show-indentation-guide li>ol::before {
+    left: -12.5px
 }
