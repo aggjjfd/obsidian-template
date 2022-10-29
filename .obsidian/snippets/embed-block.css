@@ -1,0 +1,33 @@
+/* @块引用样式 */
+
+div[data-is-embed="true"]>p>span {
+    display: flex !important;
+    justify-content: center;
+}
+
+.markdown-embed {
+    margin: 0 auto !important;
+    border-left-width: 0px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow) !important;
+    background-color: var(--bg4);
+    padding: 12px !important;
+    width: 100%;
+}
+
+.markdown-embed-link {
+    right: 16px !important;
+    top: 18px;
+    padding: 0;
+    width: 16px !important;
+}
+
+.markdown-embed-content .markdown-preview-view {
+    --line-width: auto !important;
+}
+
+/* !strict embed mode（style setting 插件中调整）时须取消注释 */
+
+/* .embed-strict .markdown-embed-link {
+    display: none;
+} */
