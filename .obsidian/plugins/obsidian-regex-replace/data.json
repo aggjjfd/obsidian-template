@@ -1,7 +1,7 @@
 {
-  "findText": "([A-D])、",
-  "replaceText": "$1. ",
-  "useRegEx": true,
+  "findText": "  ",
+  "replaceText": "",
+  "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": true,
   "processLineBreak": false,

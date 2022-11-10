@@ -1,5 +1,4 @@
 {
-  "renderAll": true,
   "cm6RenderAll": false,
   "renderImages": true,
   "renderPDF": false,
@@ -10,6 +9,7 @@
   "previewOnHoverInternalLink": false,
   "refreshImagesAfterChange": true,
   "WYSIWYG": false,
+  "renderAll": true,
   "renderAdmonition": true,
   "renderMermaid": false,
   "renderMathJax": true

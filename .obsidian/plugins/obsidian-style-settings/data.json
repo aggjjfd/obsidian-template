@@ -1,3 +1,4 @@
 {
-  "minimal-advanced@@styled-scrollbars": false
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-style@@embed-strict": false
 }

@@ -1,9 +1,9 @@
 {
   "theme": "moonstone",
   "lightStyle": "minimal-light",
-  "darkStyle": "minimal-dark-tonal",
+  "darkStyle": "minimal-dark",
   "lightScheme": "minimal-default-light",
-  "darkScheme": "minimal-macos-dark",
+  "darkScheme": "minimal-default-dark",
   "editorFont": "Sarasa Mono SC Nerd",
   "lineHeight": 1.8,
   "lineWidth": 36,

@@ -2,9 +2,9 @@
   "aestheticStyle": "glass",
   "menuCommands": [
     {
-      "id": "obsidian-git:pull",
-      "name": "Obsidian Git: Pull",
-      "icon": "remix-GithubFill"
+      "id": "obsidian-admonition:insert-admonition",
+      "name": "Admonition: Insert Admonition",
+      "icon": "blocks"
     },
     {
       "id": "app:delete-file",
